@@ -1,6 +1,6 @@
 # RL for Finance
 
-> Map section: [RL_LEARNING_MAP.md - Section 9.2](../RL_LEARNING_MAP.md#92-rl-for-finance)
+> Map section: [RL_LEARNING_MAP.md - Section 9.2](../../RL_LEARNING_MAP.md#92-rl-for-finance)
 
 ## What This Module Covers
 

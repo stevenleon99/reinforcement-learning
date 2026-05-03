@@ -1,6 +1,6 @@
 # GRPO (Group Relative Policy Optimization)
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.3](../RL_LEARNING_MAP.md#grpo-group-relative-policy-optimization)
+> Map section: [RL_LEARNING_MAP.md - Section 4.3](../../RL_LEARNING_MAP.md#grpo-group-relative-policy-optimization)
 
 ## What This Module Covers
 

@@ -1,6 +1,6 @@
 # RL for Robotics
 
-> Map section: [RL_LEARNING_MAP.md - Section 9.1](../RL_LEARNING_MAP.md#91-rl-for-robotics)
+> Map section: [RL_LEARNING_MAP.md - Section 9.1](../../RL_LEARNING_MAP.md#91-rl-for-robotics)
 
 ## What This Module Covers
 

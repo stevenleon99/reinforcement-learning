@@ -1,6 +1,6 @@
 # Actor-Critic Methods
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.2](../RL_LEARNING_MAP.md#actor-critic-methods)
+> Map section: [RL_LEARNING_MAP.md - Section 4.2](../../RL_LEARNING_MAP.md#actor-critic-methods)
 
 ## What This Module Covers
 

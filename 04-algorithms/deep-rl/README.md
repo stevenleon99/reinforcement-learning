@@ -1,6 +1,6 @@
 # Deep RL Algorithms
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.2](../RL_LEARNING_MAP.md#42-deep-rl)
+> Map section: [RL_LEARNING_MAP.md - Section 4.2](../../RL_LEARNING_MAP.md#42-deep-rl)
 
 ## What This Module Covers
 

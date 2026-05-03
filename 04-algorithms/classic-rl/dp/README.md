@@ -1,6 +1,6 @@
 # Dynamic Programming (DP)
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.1](../RL_LEARNING_MAP.md#dynamic-programming-dp)
+> Map section: [RL_LEARNING_MAP.md - Section 4.1](../../RL_LEARNING_MAP.md#dynamic-programming-dp)
 
 ## What This Module Covers
 

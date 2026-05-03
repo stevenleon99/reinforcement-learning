@@ -1,6 +1,6 @@
 # Classic RL Algorithms
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.1](../RL_LEARNING_MAP.md#41-classic-rl)
+> Map section: [RL_LEARNING_MAP.md - Section 4.1](../../RL_LEARNING_MAP.md#section-4-classic-rl-algorithms)
 
 ## What This Module Covers
 

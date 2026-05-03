@@ -1,6 +1,6 @@
 # Linear Algebra for RL
 
-> Map section: [RL_LEARNING_MAP.md - Section 2.1](../RL_LEARNING_MAP.md#21-linear-algebra)
+> Map section: [RL_LEARNING_MAP.md - Section 2.1](../../RL_LEARNING_MAP.md#21-linear-algebra)
 
 ## What This Module Covers
 

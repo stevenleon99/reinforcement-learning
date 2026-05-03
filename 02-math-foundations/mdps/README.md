@@ -1,6 +1,6 @@
 # Markov Decision Processes (MDPs)
 
-> Map section: [RL_LEARNING_MAP.md - Section 2.4](../RL_LEARNING_MAP.md#24-markov-decision-processes-mdps)
+> Map section: [RL_LEARNING_MAP.md - Section 2.4](../../RL_LEARNING_MAP.md#24-markov-decision-processes-mdps)
 
 ## What This Module Covers
 

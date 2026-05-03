@@ -1,6 +1,6 @@
 # RL for Games
 
-> Map section: [RL_LEARNING_MAP.md - Section 9.4](../RL_LEARNING_MAP.md#94-rl-for-games)
+> Map section: [RL_LEARNING_MAP.md - Section 9.4](../../RL_LEARNING_MAP.md#94-rl-for-games)
 
 ## What This Module Covers
 

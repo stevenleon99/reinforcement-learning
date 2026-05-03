@@ -1,6 +1,6 @@
 # Calculus & Optimization for RL
 
-> Map section: [RL_LEARNING_MAP.md - Section 2.3](../RL_LEARNING_MAP.md#23-calculus--optimization)
+> Map section: [RL_LEARNING_MAP.md - Section 2.3](../../RL_LEARNING_MAP.md#23-calculus--optimization)
 
 ## What This Module Covers
 

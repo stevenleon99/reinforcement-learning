@@ -1,6 +1,6 @@
 # DPO (Direct Preference Optimization)
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.3](../RL_LEARNING_MAP.md#dpo-direct-preference-optimization)
+> Map section: [RL_LEARNING_MAP.md - Section 4.3](../../RL_LEARNING_MAP.md#dpo-direct-preference-optimization)
 
 ## What This Module Covers
 

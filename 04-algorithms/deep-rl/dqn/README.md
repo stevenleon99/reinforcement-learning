@@ -1,6 +1,6 @@
 # Deep Q-Networks (DQN)
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.2](../RL_LEARNING_MAP.md#deep-q-networks-dqn)
+> Map section: [RL_LEARNING_MAP.md - Section 4.2](../../RL_LEARNING_MAP.md#deep-q-networks-dqn)
 
 ## What This Module Covers
 

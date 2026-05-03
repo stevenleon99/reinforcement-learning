@@ -1,6 +1,6 @@
 # Modern RL & LLM Alignment
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.3](../RL_LEARNING_MAP.md#43-modern-rl-algorithm-comparison-table)
+> Map section: [RL_LEARNING_MAP.md - Section 4.3](../../RL_LEARNING_MAP.md#43-modern-rl-algorithm-comparison-table)
 
 ## What This Module Covers
 

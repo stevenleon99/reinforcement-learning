@@ -1,6 +1,6 @@
 # Temporal Difference (TD) Learning
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.1](../RL_LEARNING_MAP.md#temporal-difference-td-learning)
+> Map section: [RL_LEARNING_MAP.md - Section 4.1](../../RL_LEARNING_MAP.md#temporal-difference-td-learning)
 
 ## What This Module Covers
 

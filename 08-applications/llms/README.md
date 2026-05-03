@@ -1,6 +1,6 @@
 # RL for LLMs
 
-> Map section: [RL_LEARNING_MAP.md - Section 9.3](../RL_LEARNING_MAP.md#93-rl-for-llm-alignment-rlhf-dpo-grpo)
+> Map section: [RL_LEARNING_MAP.md - Section 9.3](../../RL_LEARNING_MAP.md#93-rl-for-llm-alignment-rlhf-dpo-grpo)
 
 ## What This Module Covers
 

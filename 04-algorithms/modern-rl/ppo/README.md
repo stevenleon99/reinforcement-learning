@@ -1,6 +1,6 @@
 # PPO (Proximal Policy Optimization)
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.3](../RL_LEARNING_MAP.md#ppo-proximal-policy-optimization)
+> Map section: [RL_LEARNING_MAP.md - Section 4.3](../../RL_LEARNING_MAP.md#ppo-proximal-policy-optimization)
 
 ## What This Module Covers
 

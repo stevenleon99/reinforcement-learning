@@ -1,6 +1,6 @@
 # Probability & Statistics for RL
 
-> Map section: [RL_LEARNING_MAP.md - Section 2.2](../RL_LEARNING_MAP.md#22-probability--statistics)
+> Map section: [RL_LEARNING_MAP.md - Section 2.2](../../RL_LEARNING_MAP.md#22-probability--statistics)
 
 ## What This Module Covers
 

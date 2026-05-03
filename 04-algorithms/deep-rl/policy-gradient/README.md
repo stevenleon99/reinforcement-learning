@@ -1,6 +1,6 @@
 # Policy Gradient Methods
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.2](../RL_LEARNING_MAP.md#policy-gradient-methods)
+> Map section: [RL_LEARNING_MAP.md - Section 4.2](../../RL_LEARNING_MAP.md#policy-gradient-methods)
 
 ## What This Module Covers
 

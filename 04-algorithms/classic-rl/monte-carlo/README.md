@@ -1,6 +1,6 @@
 # Monte Carlo Methods
 
-> Map section: [RL_LEARNING_MAP.md - Section 4.1](../RL_LEARNING_MAP.md#monte-carlo-mc-methods)
+> Map section: [RL_LEARNING_MAP.md - Section 4.1](../../RL_LEARNING_MAP.md#monte-carlo-mc-methods)
 
 ## What This Module Covers
 
