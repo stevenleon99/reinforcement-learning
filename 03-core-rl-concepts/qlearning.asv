@@ -1,0 +1,149 @@
+clc;
+clear;
+
+% 5x5 grid map
+% Start from [1,1]
+% Positive values = cheese/reward
+% -10 = poison
+% 10 = big cheese / goal
+
+rewardMap = [
+    0   0   5   0   0;
+    0 -10   0   0   4;
+    0   0   0 -10   0;
+    0   3   0   1   0;
+    0   0   2   0   10
+];
+
+lr = 0.1;        % learning rate alpha
+dr = 0.99;       % discount rate gamma
+maxStep = 10;    % max steps per episode
+epoch = 50;      % number of training episodes
+
+epsilon = 1.0;        % initial exploration rate
+epsilonDecay = 0.95;  % decay rate
+minEpsilon = 0.05;    % minimum epsilon
+
+startState = [1, 1];
+
+% Action order:
+% 1 = up
+% 2 = down
+% 3 = left
+% 4 = right
+actions = [
+     1  0;   % down
+     0  1    % right
+];
+
+nRows = size(rewardMap, 1);
+nCols = size(rewardMap, 2);
+nActions = size(actions, 1);
+
+%% init Q map
+% qvalue(row, col, action)
+qvalue = zeros(nRows, nCols, nActions);
+
+%% iteration update Q value map
+for i = 1:epoch
+    fprintf("---- epoch %d --- \n", i);
+
+    currentState = startState;
+
+    for j = 1:maxStep
+
+        row = currentState(1);
+        col = currentState(2);
+
+        % Choose action using epsilon-greedy
+        action = epsilonGreedy(qvalue, currentState, epsilon);
+
+        % Move to next state
+        move = actions(action, :);
+        nextState = currentState + move;
+
+        % Check boundary
+        if nextState(1) < 1 || nextState(1) > nRows || ...
+           nextState(2) < 1 || nextState(2) > nCols
+
+            % If hit wall, stay in the same state
+            nextState = currentState;
+            reward = 0;
+
+        else
+            % Get reward from next state
+            reward = rewardMap(nextState(1), nextState(2));
+        end
+
+        nextRow = nextState(1);
+        nextCol = nextState(2);
+
+        % Current Q value
+        oldQ = qvalue(row, col, action);
+
+        % Max future Q value
+        maxNextQ = max(qvalue(nextRow, nextCol, :));
+
+        % Q-learning update:
+        % Q(s,a) = Q(s,a) + alpha * [r + gamma * max Q(s',a') - Q(s,a)]
+        newQ = oldQ + lr * (reward + dr * maxNextQ - oldQ);
+        % on-policy update:
+        newQ = oldQ + lr * (reward + dr * qvalue(nextRow, nextCol) - oldQ);
+
+        qvalue(row, col, action) = newQ;
+
+        fprintf("Step %d: State [%d,%d], Action %d, Next [%d,%d], Reward %.1f, Q %.3f\n", ...
+            j, row, col, action, nextRow, nextCol, reward, newQ);
+
+        % If poison or goal, end episode
+        if reward == -10
+            fprintf("Hit poison. Episode ended.\n");
+            break;
+        elseif reward == 10
+            fprintf("Reached big cheese. Episode ended.\n");
+            break;
+        end
+
+        % Update current state
+        currentState = nextState;
+    end
+
+    % Decay epsilon after each episode
+    epsilon = max(minEpsilon, epsilon * epsilonDecay);
+
+    fprintf("epsilon = %.3f\n\n", epsilon);
+end
+
+%% Display learned best action map
+bestActionMap = zeros(nRows, nCols);
+
+for r = 1:nRows
+    for c = 1:nCols
+        [~, bestActionMap(r,c)] = max(qvalue(r,c,:));
+    end
+end
+
+disp("Best action map:");
+disp(bestActionMap);
+
+disp("Action meaning:");
+disp("1 = up, 2 = down, 3 = left, 4 = right");
+
+
+%% epsilon greedy function
+function action = epsilonGreedy(Q, state, epsilon)
+
+    row = state(1);
+    col = state(2);
+
+    nActions = size(Q, 3);
+
+    if rand < epsilon
+        % Explore
+        action = randi(nActions);
+    else
+        % Exploit
+        qValues = squeeze(Q(row, col, :));
+        [~, action] = max(qValues);
+    end
+end
