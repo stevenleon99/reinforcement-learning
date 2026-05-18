@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8230bfdc3472910f",
+        "id": "f0188d20497cdb89",
         "type": "tabs",
         "children": [
           {
-            "id": "c56ff6de8feb4d06",
+            "id": "5d413fa65ecd81d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-math-foundations/mdps/README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -180,19 +176,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "c56ff6de8feb4d06",
+  "active": "5d413fa65ecd81d2",
   "lastOpenFiles": [
-    "cleanrl/cleanrl/runs/BreakoutNoFrameskip-v4__dqn_atari__1__1778979832/events.out.tfevents.1778979832.AlienSteve.52972.0",
-    "cleanrl/cleanrl/runs/BreakoutNoFrameskip-v4__dqn_atari__1__1778979832",
-    "cleanrl/cleanrl/runs",
-    "cleanrl/uv.lock",
-    "cleanrl/tuner_example.py",
-    "cleanrl/tests/test_utils.py",
-    "cleanrl/tests/test_tuner.py",
-    "cleanrl/tests/test_procgen.py",
-    "cleanrl/tests/test_jax_compute_gae.py",
-    "cleanrl/tests/test_pettingzoo_ma_atari.py",
-    "cleanrl/tests/test_mujoco.py",
+    "rl-algorithms/rainbow.md",
+    "rl-algorithms",
+    "cleanrl/docs/rl-algorithms/overview.md",
+    "cleanrl/docs/blog/posts/cleanrl-v1.md",
+    "02-math-foundations/mdps/README.md",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-9000.mp4",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-9000.meta.json",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-8000.mp4",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-8000.meta.json",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-7000.mp4",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-7000.meta.json",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-6000.mp4",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-6000.meta.json",
+    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-5000.mp4",
     "cleanrl/docs/static/blog/cleanrl-v1/rlops.png",
     "cleanrl/docs/static/blog/cleanrl-v1/hf.png",
     "cleanrl/docs/static/blog/cleanrl-v1/github-action.png",
@@ -211,13 +210,11 @@
     "cleanrl/docs/rl-algorithms/pqn.md",
     "cleanrl/docs/rl-algorithms/ppo/ppo_atari_envpool_xla_jax/atari_returns.md",
     "cleanrl/docs/rl-algorithms/ppo/ppo_atari_envpool_xla_jax/atari_hns.md",
-    "cleanrl/docs/blog/posts/cleanrl-v1.md",
     "cleanrl/docs/rl-algorithms/ppo-trxl.md",
     "cleanrl/docs/rl-algorithms/ppo.md",
     "cleanrl/docs/rl-algorithms/ppo-rnd.md",
     "cleanrl/docs/rl-algorithms/ppo-isaacgymenvs.md",
     "cleanrl/docs/rl-algorithms/ppg.md",
-    "cleanrl/docs/rl-algorithms/overview.md",
     "cleanrl/docs/rl-algorithms/dqn.md",
     "cleanrl/docs/rl-algorithms/ddpg.md",
     "cleanrl/docs/rl-algorithms/c51.md",
@@ -226,7 +223,6 @@
     "cleanrl/docs/get-started/experiment-tracking.md",
     "cleanrl/docs/get-started/examples.md",
     "cleanrl/docs/get-started/basic-usage.md",
-    "cleanrl/docs/get-started/benchmark-utility.md",
-    "cleanrl/docs/blog/index.md"
+    "cleanrl/docs/get-started/benchmark-utility.md"
   ]
 }

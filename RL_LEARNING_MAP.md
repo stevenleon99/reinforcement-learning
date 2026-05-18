@@ -774,4 +774,11 @@ print('Done!')
 
 ---
 
+## Useful Tools
+
+1. [gymnasium](https://github.com/Farama-Foundation/Gymnasium) — Standard RL environments
+2. [gymnasium](gymnasiums)
+
+---
+
 > **Final advice:** Read Sutton & Barto first. Implement everything from scratch once. Use CleanRL as your reference. Then move to frameworks (SB3, TRL). The best learning comes from debugging your own implementations.
