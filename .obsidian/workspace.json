@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f0188d20497cdb89",
+        "id": "cdade13738e813f0",
         "type": "tabs",
         "children": [
           {
-            "id": "5d413fa65ecd81d2",
+            "id": "6dd7769b43e8cd37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03-core-rl-concepts/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -176,8 +180,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d413fa65ecd81d2",
+  "active": "6dd7769b43e8cd37",
   "lastOpenFiles": [
+    "03-core-rl-concepts/2d_bicycle_mb_learning/2d_bicycle_modelbased_learning.py",
+    "03-core-rl-concepts/2d_bicycle_mb_learning",
+    "03-core-rl-concepts/2d_bicycle_modelbased_learning.py",
+    "04-algorithms/modern-rl/grpo/README.md",
+    "04-algorithms/deep-rl/README.md",
+    "04-algorithms/deep-rl/policy-gradient/README.md",
+    "03-core-rl-concepts/README.md",
+    "03-core-rl-concepts/Advantage Function.md",
+    "03-core-rl-concepts/Epsilon Greedy Policy.md",
+    "03-core-rl-concepts/On-policy and Off-policy.md",
+    "03-core-rl-concepts/Temporal Difference (TD).md",
+    "04-algorithms/classic-rl/README.md",
+    "04-algorithms/classic-rl/dp/README.md",
+    "gymnasiums/use_gym_env.md",
+    "gymnasiums/dqn_atari.md",
     "rl-algorithms/rainbow.md",
     "rl-algorithms",
     "cleanrl/docs/rl-algorithms/overview.md",
@@ -190,8 +209,6 @@
     "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-7000.mp4",
     "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-7000.meta.json",
     "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-6000.mp4",
-    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-6000.meta.json",
-    "cleanrl/cleanrl/videos/BreakoutNoFrameskip-v4__dqn_atari__1__1778986621/rl-video-episode-5000.mp4",
     "cleanrl/docs/static/blog/cleanrl-v1/rlops.png",
     "cleanrl/docs/static/blog/cleanrl-v1/hf.png",
     "cleanrl/docs/static/blog/cleanrl-v1/github-action.png",
@@ -210,19 +227,6 @@
     "cleanrl/docs/rl-algorithms/pqn.md",
     "cleanrl/docs/rl-algorithms/ppo/ppo_atari_envpool_xla_jax/atari_returns.md",
     "cleanrl/docs/rl-algorithms/ppo/ppo_atari_envpool_xla_jax/atari_hns.md",
-    "cleanrl/docs/rl-algorithms/ppo-trxl.md",
-    "cleanrl/docs/rl-algorithms/ppo.md",
-    "cleanrl/docs/rl-algorithms/ppo-rnd.md",
-    "cleanrl/docs/rl-algorithms/ppo-isaacgymenvs.md",
-    "cleanrl/docs/rl-algorithms/ppg.md",
-    "cleanrl/docs/rl-algorithms/dqn.md",
-    "cleanrl/docs/rl-algorithms/ddpg.md",
-    "cleanrl/docs/rl-algorithms/c51.md",
-    "cleanrl/docs/get-started/zoo.md",
-    "cleanrl/docs/get-started/installation.md",
-    "cleanrl/docs/get-started/experiment-tracking.md",
-    "cleanrl/docs/get-started/examples.md",
-    "cleanrl/docs/get-started/basic-usage.md",
-    "cleanrl/docs/get-started/benchmark-utility.md"
+    "cleanrl/docs/rl-algorithms/ppo-trxl.md"
   ]
 }
