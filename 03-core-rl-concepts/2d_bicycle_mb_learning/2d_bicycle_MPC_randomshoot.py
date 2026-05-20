@@ -26,14 +26,14 @@ class Args:
     steering_weight: float = 0.1
 
     # Steering exploration
-    steering_noise_deg: float = 25.0
+    steering_noise_deg: float = 50.0
 
     # Target behavior
     target_radius: float = 1.2
     target_lock_radius: float = 3.0
 
     # Vehicle / obstacle safety
-    vehicle_radius: float = 0.7
+    vehicle_radius: float = 0.3
     safety_margin: float = 1.5
 
 
