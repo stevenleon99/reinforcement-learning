@@ -28,6 +28,7 @@ The fundamental building blocks of reinforcement learning: the agent-environment
 - Sutton & Barto Ch.1-4 (Book, Beginner-Intermediate)
 - David Silver's RL Course Lectures 1-3 (Video, Intermediate)
 - HuggingFace Deep RL Course Unit 0-1 (Online, Beginner)
+	- https://huggingface.co/learn/deep-rl-course/en/unit4/introduction
 
 ## Suggested Exercises
 
