@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cdade13738e813f0",
+        "id": "5dd8d8f1e88b5def",
         "type": "tabs",
         "children": [
           {
-            "id": "6dd7769b43e8cd37",
+            "id": "842b5fe4aa9be078",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-projects/README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -180,19 +176,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "6dd7769b43e8cd37",
+  "active": "842b5fe4aa9be078",
   "lastOpenFiles": [
-    "05-projects/cleanrl/tests/test_utils.py",
-    "05-projects/cleanrl/tests/test_tuner.py",
-    "05-projects/cleanrl/tests/test_procgen.py",
-    "05-projects/cleanrl/tests/test_pettingzoo_ma_atari.py",
-    "05-projects/cleanrl/tests/test_mujoco.py",
-    "05-projects/cleanrl/tests/test_jax_compute_gae.py",
-    "05-projects/cleanrl/tests/test_envpool.py",
-    "05-projects/cleanrl/tests/test_enjoy.py",
-    "05-projects/cleanrl/tests/test_classic_control_jax_gymnasium.py",
-    "05-projects/cleanrl/tests/test_classic_control_gymnasium.py",
-    "05-projects/cleanrl/tests/test_classic_control.py",
+    "04-algorithms/LQR/iLQR.md",
+    "04-algorithms/LQR/iLQR",
+    "04-algorithms/LQR/lqr_cart_pole.py",
+    "04-algorithms/LQR/manual_lqr_cartpole_with_animation.py",
+    "04-algorithms/LQR/lqr_cart_pole.asv",
+    "04-algorithms/LQR/LQR.md",
+    "04-algorithms/LQR/Lectures4-5.pdf",
+    "05-projects/README.md",
+    "04-algorithms/LQR/lqr_cart_pole.m",
+    "04-algorithms/LQR/lqr_cart_pole.,",
+    "04-algorithms/LQR/iterative_lqr_cart_pole.py",
+    "04-algorithms/LQR/corrected_iterative_lqr_cart_pole.asv",
+    "04-algorithms/LQR/corrected_iterative_lqr_cart_pole.m",
     "05-projects/cleanrl/docs/static/blog/cleanrl-v1/rlops.png",
     "05-projects/cleanrl/docs/static/blog/cleanrl-v1/hf.png",
     "05-projects/cleanrl/docs/static/blog/cleanrl-v1/github-action.png",
@@ -225,8 +223,6 @@
     "05-projects/cleanrl/docs/get-started/installation.md",
     "05-projects/cleanrl/docs/get-started/experiment-tracking.md",
     "05-projects/cleanrl/docs/get-started/examples.md",
-    "05-projects/cleanrl/docs/get-started/benchmark-utility.md",
-    "05-projects/cleanrl/docs/get-started/basic-usage.md",
-    "05-projects/cleanrl/docs/cloud/submit-experiments.md"
+    "05-projects/cleanrl/docs/get-started/benchmark-utility.md"
   ]
 }
