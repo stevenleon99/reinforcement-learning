@@ -11,10 +11,14 @@
             "id": "842b5fe4aa9be078",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-math-foundations/mdps/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -178,6 +182,7 @@
   },
   "active": "842b5fe4aa9be078",
   "lastOpenFiles": [
+    "03-core-rl-concepts/README.md",
     "04-algorithms/LQR/iLQR.md",
     "04-algorithms/LQR/iLQR",
     "04-algorithms/LQR/lqr_cart_pole.py",
@@ -222,7 +227,6 @@
     "05-projects/cleanrl/docs/get-started/zoo.md",
     "05-projects/cleanrl/docs/get-started/installation.md",
     "05-projects/cleanrl/docs/get-started/experiment-tracking.md",
-    "05-projects/cleanrl/docs/get-started/examples.md",
-    "05-projects/cleanrl/docs/get-started/benchmark-utility.md"
+    "05-projects/cleanrl/docs/get-started/examples.md"
   ]
 }

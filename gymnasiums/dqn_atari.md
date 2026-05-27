@@ -48,3 +48,7 @@ During the first 80,000 timesteps:
 12. Occasionally update target_network
 
 ```
+
+> **Target Network and Q Network**
+> It is the same network predicts both the current Q-value and the target Q-value, 
+> the target keeps moving while the model is learning, making training unstable.
