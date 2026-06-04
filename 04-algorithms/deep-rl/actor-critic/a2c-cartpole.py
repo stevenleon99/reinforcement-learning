@@ -19,11 +19,32 @@ class ActorCritic(nn.Module):
 
         self.shared = nn.Sequential(
             nn.Linear(state_dim, 128),
-            nn.ReLU()
+            nn.LayerNorm(128),
+            nn.Tanh(),
+
+            nn.Linear(128, 128),
+            nn.LayerNorm(128),
+            nn.Tanh()
         )
 
-        self.actor = nn.Linear(128, action_dim)
-        self.critic = nn.Linear(128, 1)
+        self.actor = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.Tanh(),
+            nn.Linear(64, action_dim)
+        )
+
+        self.critic = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.Tanh(),
+            nn.Linear(64, 1)
+        )
+
+        self.apply(self._init_weights)
+
+    def _init_weights(self, layer):
+        if isinstance(layer, nn.Linear):
+            nn.init.orthogonal_(layer.weight, gain=nn.init.calculate_gain("tanh"))
+            nn.init.constant_(layer.bias, 0)
 
     def forward(self, state):
         x = self.shared(state)

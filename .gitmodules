@@ -1,3 +1,6 @@
 [submodule "05-projects/cleanrl"]
 	path = 05-projects/cleanrl
 	url = https://github.com/vwxyzjn/cleanrl.git
+[submodule "05-projects/panda-gym"]
+	path = 05-projects/panda-gym
+	url = https://github.com/qgallouedec/panda-gym.git
